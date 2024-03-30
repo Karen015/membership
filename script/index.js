@@ -56,4 +56,3 @@ const users = [
     factory.create('Davit', 'premium')
 ]
 
-console.log(users)
