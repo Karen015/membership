@@ -3,17 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Membership</title>
 </head>
 <body>
-    <input type="text" placeholder="user name" id="">
-    <hr>
+    <nav>
+        <h1>AmAmAmBANK</h1>
+        <ul id="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" id="buy">Buy Membership</a></li>
+            <li><a href="#">SignUp</a></li>
+        </ul>
+    </nav>
 
-    <button id="creatButton">
-        create membership
-    </button>
-    <script src="./index.js">
+    <main>
+        <section id="membershipContainer">
+            <label for="name"><h2>Write Your Name</h2></label>
+            <input type="text" placeholder="User Name" id="">
 
-    </script>
+            <hr style="width: 40%; border: 0; height: 1px; background-color: blue;">
+
+            <ul id="memberShips">
+                <!-- <li class="memberShip">
+                    <h2>1000$</h2>
+                    <p>6 month</p>
+                    <p>simple</p>
+                </li>
+                <li class="memberShip">
+                    <h2>1000$</h2>
+                    <p>6 month</p>
+                    <p>simple</p>
+                </li>
+                <li class="memberShip">
+                    <h2>1000$</h2>
+                    <p>6 month</p>
+                    <p>simple</p>
+                </li> -->
+            </ul>
+            <button id="creatButton">
+                create membership
+            </button>
+        </section>
+    </main>
+
+
+    
+
+
+
+
+
+
+    <script src="./script/index.js" type="module"></script>
 </body>
 </html>

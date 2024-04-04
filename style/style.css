@@ -1,0 +1,109 @@
+* :not(input, button) {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  background-color: #f2ffff;
+}
+body nav {
+  background-color: #bdd8ef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  transition: 0.5s;
+}
+body nav > h1 {
+  color: #767698;
+}
+body nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  font-size: large;
+}
+body nav ul a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #bcfefe;
+  border-radius: 10px;
+  color: black;
+  transition: 0.3s;
+  text-wrap: nowrap;
+}
+body nav ul a:hover {
+  background-color: #70d6d6;
+  font-size: larger;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+body main > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #5a5ab7;
+  border-radius: 10px;
+  padding: 20px;
+  width: 65%;
+  height: 60vh;
+  box-shadow: 3px 4px 5px #8383cf;
+  transition: 0.6s;
+  transform: translate(0, -1000px);
+}
+body main > section button,
+body main > section input {
+  font-family: sans-serif;
+}
+body main > section input {
+  padding: 20px 40px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px #ccc;
+}
+body main > section hr {
+  width: 100%;
+}
+body main > section ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+body main > section ul .memberShip {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid blue;
+  list-style: none;
+  font-size: 120%;
+  padding: 30px 50px;
+  gap: 20px;
+}
+body main > section ul li:hover {
+  box-shadow: 10px 15px 20px #ccc;
+  transition: 0.5s;
+  cursor: pointer;
+}
+body main > section button {
+  padding: 10px;
+  font-size: larger;
+  background-color: #bcfefe;
+  border: 0;
+  border-radius: 10px;
+}
+body main > section button:hover {
+  transition: 0.3s;
+  background-color: #a8f7f7;
+  cursor: pointer;
+  box-shadow: 2px 4px 6px #ccc;
+}
